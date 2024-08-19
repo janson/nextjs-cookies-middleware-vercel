@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "./page.module.css";
 
 export default function Home() {
@@ -8,6 +9,9 @@ export default function Home() {
         <p>
           Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.tsx</code>
+        </p>
+        <p>
+          <Link href="/demo">Go to Demo Page</Link>
         </p>
         <div>
           <a
